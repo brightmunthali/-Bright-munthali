@@ -1,0 +1,44 @@
+body {
+  background-image: url('eh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-color: #D3D3D3; /* Changed to a valid light grey color code */
+  font-weight: bold;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* White background for the container */
+  border: 1px solid #ADD8E6; /* Light blue border */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.images img {
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: #4682B4; /* Darker blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6495ED; /* Lighter blue on hover */
+}
