@@ -1,0 +1,60 @@
+
+body {
+  background-image: url('background.jpg');
+  background-size:100% 100%;
+  font-family: Verdana, sans-serif;
+  background-color: #d3d3d3;
+  background-position-x:center;
+  background-repeat:no-repeat;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color:darkgrey;
+  border: 1px solid silver;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-slot {
+  color: #808080;
+  font-weight: bold;
+}
+
+.description-slot {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.image-slot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  display: object-fit;
+  border: 5px solid #337ab7;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+#skills ul li {
+  font-size: 25px;
+}
+
+summary {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+summary:hover {
+  background-color: #grey;
+}
